@@ -1,0 +1,141 @@
+<html>
+    <head>
+        <title>Contact Us</title>
+        <link rel="stylesheet" href="../css/contactus.css">
+        <link rel = "stylesheet" href ="https://fonts.googleapis.com/icon?family=Material+Icons">
+    </head>
+
+    <body> 
+        <!--FILLIMI I HEADERIT-->
+        <div class="firstdiv"> 
+            <div class="logo">
+                <img src="../images/logo.jpg" alt="logo">
+            </div>
+        
+            <div class="nav">
+               <ul>
+                <a href="home.html"><li>Home</li></a>
+                <a href="services.html"><li>Services</li></a>
+                <a href="price.html"><li>Price</li></a>
+                <a href="aboutus.html"><li>About us</li></a>
+                <a href="biography.html"><li>Biography</li></a>
+                <a href="contactus.html"><li>Contact us</li></a>
+               </ul>
+            </div>
+          
+        </div>
+
+
+</div>
+
+
+<h1>Contact  us</h1>
+
+<div class="barber"> 
+
+    <form action="home.html"  target="_blank" method="post"> 
+        <img src="../images/logo.jpg" alt="logo" width="80px">
+        <h4>Leave your number and we  will call you back</h4>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Your name...">
+        <br>
+        <label for="surname">Surname:</label>
+        <input type="text" id="surname" placeholder="Your surname...">
+        <br>
+        <label for="select">Select:</label> 
+        <select name="slc" id="slc">
+            <option value="" selected>All Services</option>
+            <option value="Classic Haircut">Classic Haircut</option>
+            <option value="Wash and Haircut">Wash and Haircut</option>
+            <option value="Haircut and Blow dry">Haircut and Blow dry</option>
+            <option value="Beard Trim">Beard Trim</option>
+            <option value="Traditional hot towel wet shave">Traditional hot towel wet shave</option>
+        
+        </select>  
+        <br>
+        <label for="date">Choose date:</label>
+        <input type="date"id="date"name="date">
+        <br>
+        <label for="textares">Type your number or email:</label><br>
+        <textarea name="textarea" id="textares" cols="30" rows="10" placeholder="Type your number or email adress"></textarea>
+        <br><br>
+        <input type="submit" value="Book now">
+
+
+    </form>
+
+    </div><br><br>
+     <h1>Prishtina barbershop Location</h1>
+    <script>
+// Krijo nje div element dhe vendos id-në e tij si "location-div"
+var locationDiv = document.createElement("div");
+locationDiv.setAttribute("id", "location-div");
+
+// Krijo nje element paragraf dhe vendos tekstin e brendshem
+var locationTitle = document.createElement("p");
+locationTitle.innerHTML = "<b>Location</b>";
+
+// Shto elementin paragraf tek divi i krijuar
+locationDiv.appendChild(locationTitle);
+
+// Krijo dy elemente paragraf tjera dhe vendos tekstin e tyre
+var locationAddress1 = document.createElement("p");
+locationAddress1.textContent = "Rruga: Agim Ramadani/1000";
+
+var locationAddress2 = document.createElement("p");
+locationAddress2.textContent = "Prishtine/Kosovo";
+
+var locationPhone = document.createElement("p");
+locationPhone.textContent = "Nr tel: 044-999-199 / 045-222-444";
+
+// Shto elementet paragraf tek divi i krijuar
+locationDiv.appendChild(locationAddress1);
+locationDiv.appendChild(locationAddress2);
+locationDiv.appendChild(locationPhone);
+
+// Shto divin tek elementi i prindit, psh. body
+document.body.appendChild(locationDiv);
+
+
+    </script>
+    <a href="map"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d130791.24650140392!2d21.182954496191318!3d42.63972984210619!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1683372499017!5m2!1sen!2s" width="100%" height="450"></iframe></a>
+
+    </body>
+    <!--FILLIMI I FOOTERIT-->
+    <footer class="footerclass"> 
+        <div class="footerimg">
+                <img src="../images/logo.jpg" alt="logo" width="80px">
+            <div class="icons">
+                <a href="https://www.facebook.com" target="_blank"> <i class="material-icons">facebook</i></a>
+                <a href="hhtps://www.messenger.com" target="_blank"> <i class="material-icons">messenger</i></a>
+                <a href="https://www.gmail.com" target="_blank"><i class="material-icons">gmail</i></a>
+            </div>
+        </div> 
+
+        <div class="contentdiv">
+            <p><b>Content</b></p>
+        <a href="home.html" id="contentlink">Home</a><br><br>
+        <a href="services.html" id="contentlink">Service</a><br><br>
+        <a href="price.html" id="contentlink">Price</a><br><br>
+        <a href="aboutus.html" id="contentlink">About us</a><br><br>
+        <a href="biography.html" id="contentlink">Biography</a><br><br>
+        <a href="contactus.html" id="contentlink">Contact us</a><br><br>
+        </div> 
+
+        <div class="hoursdiv"> 
+            <p><b>Hours</b></p>
+            <p>Monday-Friday  09:00 - 19:00</p>
+            <p>Saturday 9:00 - 14:00</p>
+            <p>Sunday- closed</p>
+        </div> 
+
+        <div class="locationdiv">
+            <p><b>Location</b></p>
+            <p>Rruga:Agim Ramadani/1000</p>
+            <p>Prishtine/Kosovo</p>
+        </div>
+      </footer>  
+      <p id="copyid">Copyright &copy; 2023 Barbershop Prishtina - All Rights Reserved</p>
+      <!--MBARIMI I FOOTERIT-->
+
+</html>
