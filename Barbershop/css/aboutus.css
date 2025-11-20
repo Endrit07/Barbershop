@@ -1,0 +1,253 @@
+@font-face{
+    font-family: myFont;
+    src: url(../carnivalee_freakshow/Carnevalee\ Freakshow.ttf);
+}
+
+body{
+    margin: 0px;
+    background-color: rgb(32, 26, 26); 
+}  
+
+.firstdiv{ 
+    
+    display: flex;
+    justify-content: space-between; 
+   /* 
+    background-image: url(../images/backround.jpg);
+    background-repeat: no-repeat ;
+    background-size: cover;
+     */
+    width: 100%;
+    height: 40%;
+    box-shadow: 2px 10px 20px red;   
+} 
+
+
+div.logo{
+    margin-top: 20px;
+    width: 50px; 
+    border-radius: 20px;   
+} 
+
+.logo img{
+    border-radius:150px ;
+}
+
+.nav ul{
+    background-color: black;
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+    box-shadow: 2px 10px 20px brown;  
+}
+
+ul li{
+    justify-content: space-between;
+    padding: 40px;
+    font-size: 20px;
+} 
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+a:hover{
+    color: brown;
+} 
+
+h1{
+    text-align: center;
+    margin-top: 50px; 
+    font-family: myFont;
+    text-shadow: 2px 2px red;
+} 
+#pharagraph1{
+    text-align: center;
+    color: white;
+} 
+
+.aboutusdiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    margin:0px 20px;
+}  
+h2{
+    margin-left: 15%;
+    color: white;
+    font-size: 40px;
+}
+ .textdiv p{  
+    width: 70%;
+    margin-left:10%;
+    text-align: justify;
+    text-justify:inter-word;
+    font-size: 15px;
+    line-height: 2;
+    color: white;
+} 
+
+#firstsubmit{
+    background-color:brown; 
+    width: 20%;
+    height: 10%;
+    border-style: solid;
+    color: white;
+    border-color: red;
+    border-width: 2px; 
+    margin-left: 30%;
+    
+} 
+/*PJESA E DYTE */
+.aboutusdiv2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    margin:0px 20px;
+}  
+#secondh2{
+    margin-top: 20%;
+    margin-left: 20%;
+    color: white;
+    font-size: 40px;
+}
+ .textdiv2 p{  
+    width: 70%;
+    margin-left:15%;
+    text-align: justify;
+    text-justify:inter-word;
+    font-size: 15px;
+    line-height: 2;
+    color: white;
+} 
+
+#secondsubmit{
+    background-color:brown; 
+    width: 20%;
+    height: 10%;
+    border-style: solid;
+    color: white;
+    border-color: red;
+    border-width: 2px; 
+    margin-left: 35%;
+    
+} 
+/*
+.barberimage{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 40px;
+} 
+.textbarber{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    color: white;
+    margin: 40px;
+}
+*/
+.ourbarberdiv{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 30px;
+    
+}
+ .ourbarberdiv img:hover{
+    transform:scale(1.1)
+}
+
+h3{
+    color: black;
+    text-align: center;
+    border-style: solid;
+    border-color: red;
+    background-color: brown;
+} 
+
+.stafdiv{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+   
+} 
+.stafdiv1 {
+    margin-left: 30px;
+    background-color: brown;
+    width: 20%;
+    height: 30%;
+} 
+
+.stafdiv2 , .stafdiv3{
+    background-color: brown;
+    width: 20%;
+    height: 30%;
+} 
+
+.stafdiv4 {
+    margin-right: 30px;
+    background-color: brown;
+    width: 20%;
+    height: 30%;
+}   
+
+#idreadmore{
+    border-style: solid;
+    border-color: red;
+    background-color:red;
+    color: black;
+}
+
+
+
+footer{
+    background-color: rgb(41, 33, 33);
+    height: 35%;
+    padding-top: 30px;
+    margin-top: 50px;
+}
+.footerclass{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+} 
+
+.footerimg img{
+    border-radius: 50px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}  
+
+.locationdiv{
+    padding-right: 50px;
+}
+
+p{
+    color: white;
+}
+
+.contactbuton{
+    width: 30%;
+    background-color: black;
+}
+
+#copyid{
+    text-align: center;
+}
+
+
+
